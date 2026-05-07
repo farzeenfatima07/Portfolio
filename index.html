@@ -296,7 +296,17 @@ section{position:relative;z-index:1;padding:6rem 2rem;}
 }
 .proj-badge.intl{background:rgba(255,200,0,0.08);border:1px solid rgba(255,200,0,0.35);color:#ffd700;}
 .proj-badge.natl{background:rgba(0,240,255,0.06);border:1px solid rgba(0,240,255,0.25);color:var(--cyan);}
-.proj-badge.award{background:rgba(191,95,255,0.08);border:1px solid rgba(191,95,255,0.3);color:var(--purple);}
+.project-card-link{
+  display:block;text-decoration:none;color:inherit;cursor:pointer;
+}
+.project-card-link:hover{border-color:rgba(191,95,255,0.7);}
+.project-card-link:hover .proj-glow{opacity:1;}
+.project-card-link:hover .proj-link-hint{opacity:1;transform:translateY(0);}
+.proj-link-hint{
+  margin-top:1rem;font-family:'Share Tech Mono',monospace;font-size:0.68rem;
+  color:var(--purple);letter-spacing:0.12em;
+  opacity:0;transform:translateY(4px);transition:opacity 0.3s,transform 0.3s;
+}
 
 /* ─── CERTIFICATIONS ─── */
 #certifications{background:var(--dark);}
@@ -712,19 +722,18 @@ footer span{color:var(--cyan);}
         <span class="proj-badge award">&#9733; Special Achievement Award</span>
       </div>
 
-      <a href="https://farzeenfatima07.github.io/Robofest-2025" target="_blank" rel="noopener noreferrer" class="project-card project-card-link">
+      <div class="project-card">
         <div class="proj-glow"></div>
         <div class="proj-event robofest">&#9632; ROBOFEST 2025 · BOTTLE SUMO</div>
         <h3 class="proj-title">Bottle Sumo — Head Coach</h3>
         <p class="proj-subtitle">2 Teams · National 1st Place</p>
-        <p class="proj-desc">>Directed the full mechanical and algorithmic design cycle for two teams competing in Bottle Sumo. One team achieved 1st place nationally and advanced to international competition.</p>
+        <p class="proj-desc">Directed the full mechanical and algorithmic design cycle for two teams competing in Bottle Sumo. One team achieved 1st place nationally and advanced to international competition.</p>
         <div class="proj-tech">
           <span class="tech-chip">Mechanical Design</span><span class="tech-chip">Algorithm Dev</span>
           <span class="tech-chip">LEGO</span><span class="tech-chip">Strategy</span>
         </div>
-        <span class="proj-badge intl">&#9650; National Level</span>
-        <div class="proj-link-hint">&#8599; View Project</div>
-      </a>
+        <span class="proj-badge intl">&#9650; International Level</span>
+      </div>
 
       <a href="https://farzeenfatima07.github.io/smart-trolley-portfolio" target="_blank" rel="noopener noreferrer" class="project-card project-card-link">
         <div class="proj-glow"></div>
