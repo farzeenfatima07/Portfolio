@@ -70,7 +70,11 @@ AI-powered gesture-controlled prosthetic hand recognising 8 distinct sign langua
 
 | Certification | Issuer | Year |
 |---|---|---|
-| Level 1 AI Literacy for Teachers | Flint | 2025 |
+| Deloitte Australia - Data Analytics Job Simulation | Forage | Jul 2026
+| Judge - STEAM Champions National Competition | EduStream | May 2026 |
+| Exploring First lessons with Python and the micro:bit | Micro:bit Educational Foundation | Jun 2026 |
+| AI-Powered Robotics: Bridging the Gender Gap in STEAM for Africa's Future | IEEE Women in Engineering | Jun 2026 |
+| Level 1 AI Literacy for Teachers | Flint | 2026 |
 | Claude AI for Educators | Unique World Robotics | 2024 |
 | WRO Future Innovators | World Robot Olympiad, Panama | 2023 |
 | B.Eng. Computer Engineering | Bahria University | 2019–2023 |
